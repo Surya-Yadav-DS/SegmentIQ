@@ -510,7 +510,7 @@ with st.sidebar:
     st.markdown("<div style='padding:0.6rem 1rem 0.1rem;'>"
                 "<div class='sec-hdr'>Pages</div></div>",
                 unsafe_allow_html=True)
-    page = st.radio("nav", [
+    page = st.radio("", [
         "🏠  Overview",
         "📂  Data Input",
         "🔢  Segmentation",
